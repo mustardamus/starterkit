@@ -48,7 +48,7 @@ Will start the Express server. Static files will be served from `./public`.
 To watch files for changes and compile the production code, served by the
 Express server.
 
-To configure the express app just edit the file `./config.coffee`.
+To configure the express app just edit the file `./server/config.coffee`.
 
 ## Add JavaScript and CSS libraries
 
