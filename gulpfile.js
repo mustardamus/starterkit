@@ -1,5 +1,5 @@
 var gulp       = require('gulp');
-var guitl      = require('gulp-util');
+var gutil      = require('gulp-util');
 var stylus     = require('gulp-stylus');
 var webserver  = require('gulp-webserver');
 var browserify = require('gulp-browserify');
