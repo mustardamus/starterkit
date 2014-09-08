@@ -8,6 +8,7 @@ var include    = require('gulp-include');
 var uglify     = require('gulp-uglify');
 var csso       = require('gulp-csso');
 var imagemin   = require('gulp-imagemin');
+var prefix     = require('gulp-autoprefixer');
 
 var serverPort     = 6699;
 var livereloadPort = 36699;
@@ -16,6 +17,7 @@ gulp.task('stylus', function() {
   gulp
     .src('./app/styles/*.styl')
     .pipe(stylus())
+    .pipe(prefix())
     .pipe(gulp.dest('./public/styles/'));
 });
 

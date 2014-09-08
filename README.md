@@ -1,4 +1,4 @@
-# Starterkit `0.0.3`
+# Starterkit `0.0.4`
 
 ## Stack
   - [NPM](https://www.npmjs.org/)
@@ -7,6 +7,7 @@
   - [CoffeeScript](http://coffeescript.org/)
   - [Browserify](http://browserify.org/)
   - [Stylus](https://learnboost.github.io/stylus/)
+  - [Autoprefixer](https://github.com/postcss/autoprefixer)
   - [Foundation](http://foundation.zurb.com/)
   - [Underscore](http://underscorejs.org/)
   - [Backbone](http://backbonejs.org/)
@@ -89,3 +90,8 @@ To configure the express app just edit the file `./server/config.coffee`.
   2.  The `module.exports` should return a function that accept one argument,
   which is the `helper` object.
   Inside the function, `this` is the reference to the Mongoose object.
+
+## Changelog
+
+    2014-09-08 Version 0.0.4
+      - added Autoprefixer to stylus task
